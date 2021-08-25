@@ -1,0 +1,65 @@
+* {
+	/*CSS Selectors: 
+	* = All
+	{} = Delimeter
+	*/
+	font-family: "Roboto", sans-serif;
+
+}
+
+h1,h2 {
+	font-family: "Montserrat", sans-serif
+}
+
+img{
+	height: 300px;
+	width: 200px;
+}
+
+#landing {
+	height: 80vh;
+/*center content vertically using flexbox*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.jumbotron {
+	background-color: transparent;
+}
+
+#gallery {
+	height: 75vh;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	border-radius: 10px;
+}
+
+.tools {
+	color: white;
+	padding: 25px;
+	height: 200px;
+	border: 5px solid #f2f2f2;
+	/*to make space between the boxes*/
+	margin: 20px;
+	/*the width of the box = 75% of the whole web page*/
+	width: 75%;
+	/*to round the edge of the box*/
+	border-radius: 10px; 
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+}
+h2{
+	color: #ffc300;
+}
+html {
+	scroll-behavior: smooth;
+}
+
+/*CSS Specificity*/
